@@ -35,9 +35,25 @@ const RegisterForm = () => {
         break;
     }
   };
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    console.log(formData);
+
+    const data = {
+      name: formData?.fullName,
+      email: formData?.email,
+      password: formData?.password,
+    };
+
+    const res = await fetch("http://localhost:5000/api/auth/register", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+
+    const resData = await res.json();
+    console.log(resData);
   };
 
   return (
