@@ -19,7 +19,8 @@
     "react-router-dom": "^6.22.1",
     "server": "file:../server",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "vite": "^5.1.4"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
@@ -34,7 +35,6 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.2.2",
-    "vite": "^5.1.4"
+    "typescript": "^5.2.2"
   }
 }
