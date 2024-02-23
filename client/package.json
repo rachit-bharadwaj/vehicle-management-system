@@ -20,6 +20,7 @@
     "server": "file:../server",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
+    "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.1.4"
   },
   "devDependencies": {
@@ -28,7 +29,6 @@
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
-    "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
