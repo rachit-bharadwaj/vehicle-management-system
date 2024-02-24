@@ -70,7 +70,14 @@
   * {
     @apply border-border;
     font-family: "Poppins", sans-serif;
+
+  
   }
+
+  .helloo {
+    @apply bg-background text-foreground text-3xl;
+  }
+
   body {
     @apply bg-background text-foreground;
   }
